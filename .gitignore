@@ -1,0 +1,108 @@
+# ---- Secrets / credentials ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---- Virtual environments / uv ----
+.venv/
+venv/
+env/
+ENV/
+.uv/
+.python-version
+
+# ---- Testing / coverage / type checking ----
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.cover
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ---- AI/ML artifacts (RAG demos, embeddings, vector stores) ----
+.cache/
+.chroma/
+chroma_db/
+.faiss/
+*.faiss
+*.index
+*.pkl
+*.pickle
+*.npy
+*.npz
+models/
+model_cache/
+sentence_transformers_cache/
+.huggingface/
+embeddings_cache/
+vector_store/
+
+# ---- Local data / scratch output ----
+data/local/
+output/
+outputs/
+tmp/
+scratch/
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.db
+
+# ---- Editors / IDE ----
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# ---- OS ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ---- Node (in case of tooling/slides) ----
+node_modules/
+npm-debug.log*
